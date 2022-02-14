@@ -1,0 +1,13 @@
+code:
+n=int(input("enter n value"))
+sum=0
+while(n>0):
+    r=n%10
+    sum=sum+r
+    n=n//10
+print(sum)    
+out put:
+enter n value232
+7
+enter n value 23212
+10
